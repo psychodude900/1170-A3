@@ -1,0 +1,192 @@
+* {
+    background: darkblue; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: lawngreen;
+}
+
+.hero-image{
+    background-image: url("Images/forest.jpg");
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header nav ul{
+    text-align: center;
+}
+
+header nav ul > li {
+    display: inline-block;
+    padding: 10px 30px;
+    padding-bottom: 50px;
+}
+
+header nav ul li a{
+    color:lawngreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul > li{
+    display: inline-block;
+}
+
+ol li{
+    background-color: royalblue;
+    padding: 5px;
+    margin-left: 35px;
+}
+#bginfo li:hover{
+    background-color: royalblue;
+}
+
+#white-scheme{
+    background-color: white;
+    border : none;
+    border-radius: 5px;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#red-scheme{
+    background-color: maroon;
+    border : none;
+    border-radius: 5px;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+#navy-scheme{
+    background-color: darkblue;
+    border : none;
+    border-radius: 5px;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.next{
+    float: right;
+    padding-right: 50px;
+}
+
+.prev{
+    float: left;
+    padding-left: 50px;
+}
+
+footer nav ul > li{
+    display: inline-block;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+footer nav ul li a{
+    color:lawngreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+img{
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 5px
+}
+
+a img:hover{
+    box-shadow: 0 0 20px 5px lawngreen;
+    opacity: 0.9;
+}
+
+a[href]:hover{
+    opacity: 0.7;
+}
+
+.nav-button{
+    background-color: royalblue;
+    border : none;
+    border-radius: 5px;
+    color: lawngreen;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+}
+.audio-button{
+    background-color: royalblue;
+    border : none;
+    border-radius: 5px;
+    color: lawngreen;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: bold;
+    display: inline-block;
+}
+
+.audio-button:hover{
+    opacity: 0.8;
+}
+
+#text-area{
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: forestgreen;
+    font-size: 20px;
+}
+
+::placeholder{
+    color : forestgreen;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 10px;
+    grid-auto-rows: minmax(10px, auto);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    grid-template-areas: 
+        "checkbox"
+}
+
+#check form, #check form label{
+    grid-area: checkbox;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+#check form input:focus{
+    background: royalblue;
+}
+
+#message form input:required{
+    background: royalblue;
+}
+#message form input:focus{
+    background-color: royalblue;
+}
+
+input{
+    accent-color: lawngreen;
+    border-color: lawngreen;
+}
+
+.gallery{
+    margin: 5px;
+    display: inline-block;
+
+}
+
+table {
+    border-collapse: separate;
+    border: 2px solid;
+    border-radius: 10px;
+}

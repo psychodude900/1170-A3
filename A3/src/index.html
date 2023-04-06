@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="Images/KnightIcon.png">
+    <link rel="stylesheet" href="styles.css">
+    <title>About - Tahseen Shanteer</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a> </li>
+                <li><a href="resume.html">RESUME</a> </li>
+                <li><a href="gallery.html">PROJECTS</a> </li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <ul>
+            <li><button id="white-scheme" onclick="colScheme('white', 'black', 'grey')"></button></li>
+            <li><button id="red-scheme" onclick="colScheme('maroon', 'wheat', 'red')"></button></li>
+            <li><button id="navy-scheme" onclick="colScheme('darkblue', 'lawngreen', 'royalblue')"></button></li>
+        </ul>    
+    </header>
+    <h1>HOME</h1>
+    <audio controls id="audio" src="Audio/IntroAudio.mp3"></audio>
+    <div> 
+        <button class="audio-button" id="play" onclick="document.getElementById('audio').play()">Play</button> 
+        <button class="audio-button" id="pause" onclick="document.getElementById('audio').pause()">Pause</button> 
+        <button class="audio-button" id="volUp" onclick="document.getElementById('audio').volume += 0.1">Vol +</button> 
+        <button class="audio-button" id="volDn" onclick="document.getElementById('audio').volume -=0.1">Vol -</button> 
+      </div>
+    <section>
+        <div>
+            <h3>Profile</h3>
+            <p>I am currently a Computer Science Student at Dalhousie University hoping to become a mobile app or games developer after graduation.</p>
+            <ul>
+                <li>Background info:
+                    <ul id="bginfo">
+                        <li>Name: Tahseen Shanteer</li>
+                        <li>DOB: 26/09/2004</li>
+                    </ul>
+                </li>
+                <li>Contact Email:
+                    <ul>
+                        <li>
+                            <a href="mailto:tahseen0904@gmail.com">tahseen0904@gmail.com</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Ongoing Skill-buildup</h3>
+            <p>Prior to my first term at university, I had some basic experience with Python and C++ but now after my first semester I was introduced to a couple more languages:</p>
+            <ol>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C</li>
+                <li>HTML</li>
+                <li>ASEBA</li>
+                <li>C++</li>
+            </ol>
+        </div>
+
+    </section>
+    <footer>
+        <nav>
+            <ul>
+                <li class="next"><a href="resume.html"><button class="nav-button">NEXT ></button></a></li>
+            </ul>
+        </nav> 
+    </footer>
+
+
+</body>
+</html>
